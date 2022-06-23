@@ -1,0 +1,110 @@
+/*
+Theme Name: Portfolio
+Author: Xavier Pinçon
+*/
+
+
+
+ body{
+   
+    width: 100vw;
+    height: 100vh;
+    font-family:'K2D', sans-serif ;
+    
+   
+
+
+        .menu-menu-container{
+            background: linear-gradient( rgba(73, 73, 73, 0.5),rgba(254, 250, 250, 0.5) );
+            position:fixed;
+            font-size: 1.2em;
+            width: 100%;
+            
+
+
+                .menu{
+                    display: flex;
+                    list-style-type: none;
+                    gap: 2vw;
+                    justify-content: end;
+                    margin-right: 50px;
+
+                    li>a{
+                        text-decoration: none;
+                        color: white;
+                        
+                        
+                        &:hover{
+                            transform: scale(1.1);
+                            transition: 0.3;
+                            font-weight: 500;
+                        }
+                    }
+                }
+            }
+        main{
+
+        
+            .home{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                background-image: url("http://localhost/portfolio_V1/wp-content/themes/themeportfolio/assets/accueil.png");
+                background-repeat: no-repeat;
+                background-size: cover;
+                background-attachment: fixed;
+                background-position: center;
+                height: 100vh;
+                color: white;
+                font-weight: 600;
+
+            
+                    .title{
+                        font-size: 3em;
+                    }   
+                    .separation{
+                        border-bottom: 2px solid white;
+                        width: 30%;
+                        height: 5%;
+                    } 
+                .descrip{
+                        font-size: 1em;
+                        margin-top: 5%;
+                    }
+            } 
+            
+             article{
+                text-align: center;
+                font-size: 1.3em;
+                font-weight: 600;
+
+
+
+                .separ{
+                    height: 3vw;
+                }
+                .band{
+                    height: 10vw;
+                    width: 100%;
+                    background: linear-gradient( rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5) ),
+                    url("./assets/code4.png");
+                    background-position: center;
+                    background-repeat: no-repeat;
+                    background-size:cover;
+                }
+
+                .post{
+
+
+                             h1{
+
+                                font-weight: 800;
+                            }
+                }
+
+               
+
+            }
+ }
+}
